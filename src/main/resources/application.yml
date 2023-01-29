@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: your database url
+    username: database user id
+    password: database user password
+    driver-class-name: driver name
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: database type
+    database-platform: database platform
